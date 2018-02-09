@@ -34,3 +34,10 @@
 
 整个测试过程未出现 `需要多次 sendto` 的情景。 
   
+
+
+### 
+[How to solve: sending UDP packet using Sendto() got “message too long”](https://stackoverflow.com/questions/9853099/how-to-solve-sending-udp-packet-using-sendto-got-message-too-long?rq=1)
+https://stackoverflow.com/questions/9853099/how-to-solve-sending-udp-packet-using-sendto-got-message-too-long?rq=1
+
+`这个就是使用了多次，存疑`
