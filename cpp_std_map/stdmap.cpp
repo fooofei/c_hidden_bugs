@@ -50,6 +50,7 @@ struct leak
 
 
 // 在 insert 之前一定要 find
+// 因为插入已经存在的值会导致插入失败 如果不处理这个返回值就会内存泄漏的可能（当值是new\malloc 出的）
 void test_get_memory_leak()
 {
     typedef std::map<int, int *> mytype_t;
